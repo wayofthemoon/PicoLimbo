@@ -44,7 +44,7 @@ fn send_configuration_packets(
     let registry_provider = PrecomputedRegistries::new(protocol_version);
 
     // Send Server Brand
-    let packet = ConfigurationClientBoundPluginMessagePacket::brand("PicoLimbo");
+    let packet = ConfigurationClientBoundPluginMessagePacket::brand("onlysword.xyz");
     batch.queue(|| PacketRegistry::ConfigurationClientBoundPluginMessage(packet));
 
     if protocol_version.is_after_inclusive(ProtocolVersion::V1_20_5) {
