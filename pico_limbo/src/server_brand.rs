@@ -1,1 +1,1 @@
-pub const SERVER_BRAND: &str = "PicoLimbo";
+pub const SERVER_BRAND: &str = "onlysword.xyz";
